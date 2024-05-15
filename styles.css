@@ -1,15 +1,20 @@
 body {
     background-color: #FDFCE8;
+    margin-left: 30px;
+    margin-right: 30px;
     }
 h1 {
     text-align: center;
     font-family: 'Barriecito', system-ui;
     font-size: 100px;
     }
+h3 {
+    text-align: center;
+    font-family: 'Barriecito', system-ui;
+    font-size: 50px;
+    }
 p {
     font-family: "Libre Baskerville", serif;
-    margin-left: 30px;
-    margin-right: 30px;
 }
 ul {
     list-style-type: none;
@@ -17,7 +22,13 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #c93521;
-    font-family: "Libre Baskerville", serif
+    font-family: "Libre Baskerville", serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Use 100vw to ensure the navbar spans the entire viewport width */
+    box-sizing: border-box; /* Ensure padding is included in the width calculation */
+    z-index: 1000; /* Ensure the navbar is on top */
   }
   
 li {
@@ -28,7 +39,7 @@ li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 16px 57.47px;
+    padding: 16px 20px;
     text-decoration: none;
     font-size: 22px;
 }
@@ -44,3 +55,9 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
+#profile-pic {
+    display: block; 
+    float: left;
+    width: 15%;
+    padding-right: 10px;
+}
