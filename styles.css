@@ -46,6 +46,10 @@ p {
     background-color: #ffa498;
 }
 
+.content{
+    margin: 20px;
+}
+
 img {
     display: block;
     margin-left: auto;
