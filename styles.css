@@ -1,55 +1,51 @@
 body {
     background-color: #FDFCE8;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 0px
     }
+
 h1 {
     text-align: center;
     font-family: 'Barriecito', system-ui;
     font-size: 100px;
     }
+
 h3 {
     text-align: center;
     font-family: 'Barriecito', system-ui;
     font-size: 50px;
     }
+
 p {
     font-family: "Libre Baskerville", serif;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+
+.navigation {
+    overflow: auto;
     background-color: #c93521;
     font-family: "Libre Baskerville", serif;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw; /* Use 100vw to ensure the navbar spans the entire viewport width */
-    box-sizing: border-box; /* Ensure padding is included in the width calculation */
-    z-index: 1000; /* Ensure the navbar is on top */
+    display: flex;
+    width: 100%;
   }
-  
-li {
+
+.navigation a {
     float: left;
-}
-
-li a {
-    display: block;
-    color: black;
+    color: #f2f2f2;
     text-align: center;
-    padding: 16px 20px;
+    padding: 14px 16px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 20px;
+    transition-duration: .25s;
 }
 
-li a:hover {
+.navigation a:hover {
+    background-color: #ffa498;
+    letter-spacing: .15rem;
+}
+
+.navigation a.active {
     background-color: #ffa498;
 }
-.active {
-    background-color: #ffa498;
-}
+
 img {
     display: block;
     margin-left: auto;
@@ -62,6 +58,7 @@ img {
     padding-right: 50px;
     
 }
+
 /*
 #profile-bio {
     margin-left: 200px;
