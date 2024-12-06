@@ -72,10 +72,6 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
 
-#profile-pic {
-    width: 25%;
-}
-  
 .OurTeam {
     float: left;
     height: 33.3%;
@@ -87,10 +83,9 @@ img {
     margin: 30px;
     display: flex;
 }
-  
-.about-section {
-    padding: 50px;
-    text-align: center;
+
+#profile-pic {
+    width: 25%;
 }
   
 .member-info {
